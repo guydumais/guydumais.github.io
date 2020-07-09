@@ -9,6 +9,22 @@
     })(window,document,'script','dataLayer','GTM-WKCTXM');</script>
     <!-- End Google Tag Manager -->
     <!-- GDD Client Library -->
+    <script>
+    window.addEventListener( 'load', function() {
+        if(window.google_tag_manager) {
+            //Google Tag Manager is working
+            alert('Tag Manager Ok!');
+        else if(window.ga && ga.create) {
+            //Google Analytics is working
+            alert('Analytics Ok!');
+        } else {
+            //Google Analytics is blocked
+            alert('Blocked!!!');
+        }
+    }, false );
+
+//To check Google Tag Manager, use:     
+        </script>
     <script type="text/javascript" async="" src="/gddcfw.js"></script>
     <!-- Metas -->
     <meta charset="UTF-8">
