@@ -13,17 +13,19 @@
     window.addEventListener( 'load', function() {
         if(window.google_tag_manager) {
             //Google Tag Manager is working
-            alert('Tag Manager Ok!');
+            //alert('Tag Manager Ok!');
         } else if(window.ga && ga.create) {
             //Google Analytics is working
-            alert('Analytics Ok!');
+            //alert('Analytics Ok!');
         } else {
             //Google Analytics is blocked
-            alert('Blocked!!!');
+            //alert('Blocked!!!');
+            // <script type="text/javascript" async="" src="/gddcfw.js"/> 
+            window.ga_tid = "UA-34352624-3"; // {String} The trackerID of your site.
+            window.ga_api = "/gddwa/";
         }
     }, false );
     </script>
-    <script type="text/javascript" async="" src="/gddcfw.js"></script>
     <!-- Metas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +38,7 @@
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKCTXM"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="secure.html"></iframe></noscript>
     <div id="page-content">
         <div id='block'>
             <img id="logo" src="guy-dumais-digital-icon.png"/>
