@@ -23,8 +23,9 @@
             // <script type="text/javascript" async="" src="/gddcfw.js"/> 
             window.ga_tid = "UA-34352624-3"; // {String} The trackerID of your site.
             window.ga_api = "/gddwa";
-            var script = document.createElement('script');
+            const script = document.createElement('script');
             script.src = "/cfga.min.js";
+            document.head.append(script);
         }
     }, false );
     </script>
