@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{WNYa:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),c={title:"Comment",description:"Contenu de la page Comment..."},m=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement("div",{className:"content"},l.a.createElement("h1",null,c.title),l.a.createElement("p",null,"Bienvenue dans la page Comment...")))};m.pageMeta=c,n.default=m}}]);
+//# sourceMappingURL=component---src-pages-comment-fr-js-ee9cdd2046cf3e6d8a61.js.map
