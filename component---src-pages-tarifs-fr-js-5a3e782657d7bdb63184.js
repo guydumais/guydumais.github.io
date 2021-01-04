@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{Y5IS:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),c=a.n(n),i={title:"Tarifs",description:"Page des tarifs..."},l=function(){return c.a.createElement(c.a.Fragment,null,c.a.createElement("div",{className:"container"},c.a.createElement("div",{className:"content"},c.a.createElement("h1",null,i.title),c.a.createElement("p",null,i.description))))};l.pageMeta=i,t.default=l}}]);
-//# sourceMappingURL=component---src-pages-tarifs-fr-js-5a3e782657d7bdb63184.js.map
