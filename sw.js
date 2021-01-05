@@ -27,19 +27,19 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8f288e94b66d51002b57.js"
+    "url": "webpack-runtime-10afaa9261584c36f879.js"
   },
   {
-    "url": "styles.caa104cf123a35ef3da6.css"
+    "url": "styles.ec135e44849f1d15f812.css"
   },
   {
     "url": "styles-89fd2ae28bdf06750a71.js"
   },
   {
-    "url": "framework-45255a03e98715197500.js"
+    "url": "framework-eed2047f0212aeb82c81.js"
   },
   {
-    "url": "cb1608f2-d3eff48461db051bc867.js"
+    "url": "cb1608f2-090edbbfb5d234ead27c.js"
   },
   {
     "url": "8cc0c180-bf243ea3bbc26155e5ea.js"
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "29107295-303bd004e29c9a220986.js"
   },
   {
-    "url": "app-07e40872300682e1f588.js"
+    "url": "app-9e2bcf07e526ef208c39.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "5d2507041e13bef5121d8c523de00df0"
+    "revision": "e744ed035fd68309ecca99cbf1e8c762"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-24ed62d9539ef772967c.js"
@@ -63,10 +63,10 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "d3e92b2f63a00b35652cb4fd818d7915"
+    "revision": "8164bff1ca030205ba8136a67c3e4608"
   },
   {
-    "url": "polyfill-92ceecb1a4d40f2ba70c.js"
+    "url": "polyfill-b1d91eab60bc738a3fe1.js"
   },
   {
     "url": "manifest.json",
@@ -74,7 +74,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "e33218841d65321a321eda92cec6f07d"
+    "revision": "cbdeff2f4bf639c3069a4aeb65ff4fd6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -166,7 +166,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-07e40872300682e1f588.js`))) {
+  if (!resources || !(await caches.match(`/app-9e2bcf07e526ef208c39.js`))) {
     return await fetch(event.request)
   }
 
